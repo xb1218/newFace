@@ -1,0 +1,30 @@
+.app-card {
+  width: 180px;
+  height: 200px;
+  margin: 0 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+  background: white;
+  cursor: pointer;
+
+  .app-icon {
+    width: 84px;
+    height: 84px;
+    margin-top: 36px;
+  }
+
+  .app-name {
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    font-family: PingFangSC-Medium, PingFang SC;
+    box-shadow: 2px -4px 6px -1px rgba(99, 96, 190, 0.1),
+      -2px 2px 3px 0px rgba(255, 255, 255, 0.2),
+      10px -10px 30px -1px rgba(99, 96, 190, 0.08);
+    position: relative;
+    margin-top: 30px;
+  }
+}

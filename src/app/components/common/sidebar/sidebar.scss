@@ -1,0 +1,82 @@
+.page-sidebar {
+  position: fixed;
+  top: 68px;
+  left: 8px;
+  bottom: 0;
+  width: 84px;
+  background: #f0f1f6;
+  .page-sidebar-nav {
+    li {
+      width: 100%;
+      padding: 20px 0;
+      cursor: pointer;
+      .sidebar-icon {
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin: 5px auto 0 auto;
+      }
+      .sidebar-icon-collection {
+        display: block;
+        background-image: url('../../../assets/image/collection-menu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .sidebar-icon-schedule {
+        display: block;
+        background-image: url('../../../assets/image/schedule-menu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .sidebar-icon-device {
+        display: block;
+        background-image: url('../../../assets/image/device-menu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .sidebar-icon-users {
+        display: block;
+        background-image: url('../../../assets/image/users-menu.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .sidebar-title {
+        display: block;
+        color: #333333;
+        text-align: center;
+        margin-top: 8px;
+        font-family: PingFangSC-Medium, PingFang SC;
+      }
+      &.active {
+        background: white;
+        border-radius: 10px 0 0 10px;
+        box-shadow: 0px 4px 6px 0px rgba(65, 71, 90, 0.1);
+
+        .sidebar-icon-collection {
+          display: block;
+          background-image: url('../../../assets/image/collection-icon.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .sidebar-icon-schedule {
+          display: block;
+          background-image: url('../../../assets/image/schedule-icon.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .sidebar-icon-device {
+          display: block;
+          background-image: url('../../../assets/image/device-icon.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .sidebar-icon-users {
+          display: block;
+          background-image: url('../../../assets/image/users-icon.png');
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.ant-modal-header {
+  background: #5f89ff;
+  padding: 7px 16px;
+  .ant-modal-title {
+    color: white;
+  }
+}
+
+.ant-modal-close {
+  color: white;
+  .ant-modal-close-x {
+    height: 37px;
+    line-height: 37px;
+  }
+}
+
+.ant-modal-close:hover {
+  color: white;
+}
